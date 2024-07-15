@@ -1,0 +1,8 @@
+{
+  "contest": 403,
+  "handle": "nonseodion",
+  "risk": "3",
+  "title": "An attacker can mint free DUSD and liquidate the corresponding Short Record to earn liquidation rewards",
+  "issueId": 2,
+  "issueUrl": "https://github.com/code-423n4/2024-07-dittoeth-findings/issues/2"
+}
