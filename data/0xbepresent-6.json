@@ -1,0 +1,8 @@
+{
+  "contest": 403,
+  "handle": "0xbepresent",
+  "risk": "2",
+  "title": "Impact of inactive order book on `yUSD` withdrawals",
+  "issueId": 6,
+  "issueUrl": "https://github.com/code-423n4/2024-07-dittoeth-findings/issues/6"
+}
