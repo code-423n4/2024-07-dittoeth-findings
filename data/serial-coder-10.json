@@ -1,0 +1,8 @@
+{
+  "contest": 403,
+  "handle": "serial-coder",
+  "risk": "2",
+  "title": "Incorrect slippage protection checks in the `yDUSD` vault's `deposit()` and `withdraw()`",
+  "issueId": 10,
+  "issueUrl": "https://github.com/code-423n4/2024-07-dittoeth-findings/issues/10"
+}
