@@ -1,0 +1,8 @@
+{
+  "contest": 403,
+  "handle": "serial-coder",
+  "risk": "3",
+  "title": "Incorrect accounting bug of the `yDUSD` vault leads to total loss of depositors' `DUSD` assets",
+  "issueId": 7,
+  "issueUrl": "https://github.com/code-423n4/2024-07-dittoeth-findings/issues/7"
+}
