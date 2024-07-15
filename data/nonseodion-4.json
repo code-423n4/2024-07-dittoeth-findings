@@ -1,0 +1,8 @@
+{
+  "contest": 403,
+  "handle": "nonseodion",
+  "risk": "2",
+  "title": "Liquidatable Short Records can be created when a disputed proposal is combined with its previous Short Record",
+  "issueId": 4,
+  "issueUrl": "https://github.com/code-423n4/2024-07-dittoeth-findings/issues/4"
+}
