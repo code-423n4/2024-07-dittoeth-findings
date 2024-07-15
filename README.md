@@ -15,7 +15,7 @@ Unless otherwise discussed, this repo will be made public after audit completion
 Sponsors have two critical tasks in the audit process: Reviewing the list of curated issues, and once you have mitigated your findings, sharing those mitigations. 
 
 1. [Respond to curated High- and Medium-risk submissions ↓](#1-respond-to-curated-high--and-medium-risk-submissions)
-2. [Share your mitigation of findings (optional) ↓](#3-share-your-mitigation-of-findings-optional)
+2. [Share your mitigation of findings (optional) ↓](#2-share-your-mitigation-of-findings-optional)
 
 Note: It’s important to be sure to **only review issues from the curated list.** The list filters out unsatisfactory issues that don't require your attention.
 
