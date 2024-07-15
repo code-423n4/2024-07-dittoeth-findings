@@ -59,3 +59,15 @@ A malicious user can open discounted asks and fill them himself with bids or vic
 
 ### Fix
 It seems the check is added to prevent the pool from being empty when discounts occur to prevent loss of DUSD minted. The protocol can decide to commit a withdrawable amount of DUSD to the yDUSD pool and get rid of the check.
+
+## A user can create a position that is immediately reedemable
+Short Orders (SRs) can be created with a collateral ratio less than initial CR. The protocol still ensures that collateral to cover minShortErc is filled in the Short Record at least. 
+
+If the Short Order has a collateral ratio < 1, the Short Record may up having a collateral ratio higher than `Short Order Collateral Ratio + 1`. It is higher because of the extra collateral already added to cover minShortErc.
+
+However if the overall debt is far higher than the minShortErc the position may be liquidatable. Consider the following scenario:
+
+1. A Short Order is created with CR = 0.7, debt = 200_000 and is filled with collateral to cover minShortERC. (minShortERC = 2000).
+2. If the price of DUSD is 0.5 USD then the Short Record is filled with 1000 USD worth of collateral. 
+3. When it is fully matched the total debt is 200_000 USD and the total collateral is worth 342_000 USD. Thus having a CR of 1.71. Making it liquidatable.
+
