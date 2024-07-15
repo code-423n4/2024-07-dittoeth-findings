@@ -1,0 +1,8 @@
+{
+  "contest": 403,
+  "handle": "serial-coder",
+  "risk": "3",
+  "title": "`DUSD` assets can be minted with less `ETH` collateral than required",
+  "issueId": 8,
+  "issueUrl": "https://github.com/code-423n4/2024-07-dittoeth-findings/issues/8"
+}
